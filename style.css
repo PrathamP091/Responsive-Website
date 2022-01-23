@@ -7,6 +7,7 @@
   scroll-behavior: smooth;
   animation: smooth;
 }
+
 body {
   font-family: Poppins;
 }
@@ -19,6 +20,7 @@ body {
   font-size: 2em;
   color: whitesmoke;
 }
+
 .content p {
   font-size: 1em;
   font-weight: 300;
@@ -26,6 +28,7 @@ body {
   letter-spacing: 2px;
   margin-top: 20px;
 }
+
 button {
   border-style: none;
   font-size: 1em;
@@ -36,14 +39,17 @@ button {
   padding: 10px 30px;
   margin-top: 20px;
 }
+
 .btn a {
   text-decoration: none;
   color: black;
 }
+
 .banner .content {
   max-width: 900px;
   text-align: center;
 }
+
 .banner {
   position: relative;
   width: 100%;
@@ -54,6 +60,7 @@ button {
   background: linear-gradient(#000000aa, #000000aa), url(img/BK5KY6VNFZATNKISFCBHRQPBIY.jpg);
   background-size: cover;
 }
+
 header {
   position: fixed;
   top: 0;
@@ -66,34 +73,42 @@ header {
   align-items: center;
   background: rgba(0, 0, 0, .7);
 }
+
 header a {
   text-decoration: none;
   color: whitesmoke;
   font-weight: 600;
 }
+
 header .logo {
   font-size: 1.5em;
   color: lightblue;
 }
+
 span {
   color: lightcoral;
   font-size: 1.5em;
 }
+
 header ul {
   list-style: none;
 }
+
 header .nav {
   display: flex;
   position: relative;
 }
+
 header .nav li {
   margin-left: 40px;
 }
+
 header .nav li a {
   color: lightgoldenrodyellow;
   font-weight: 500;
   font-size: 1em;
 }
+
 header .nav li a:hover {
   background: lightcoral;
   padding: 8px;
@@ -110,21 +125,25 @@ header .nav li a:hover {
   padding: 100px 50px;
   background-color: #3F3030;
 }
+
 .titletext {
   font-size: 2em;
   font-weight: 600;
   color: antiquewhite;
 }
+
 .container {
   position: relative;
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
+
 .container .cols {
   position: relative;
   width: 48%;
 }
+
 .container .cols .para {
   position: relative;
   font-size: 1em;
@@ -135,12 +154,14 @@ header .nav li a:hover {
   width: 100%;
   margin-top: 40px;
 }
+
 .container .cols .img {
   position: relative;
   width: 100%;
   height: 300px;
   box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.3);
 }
+
 .container .cols .img img {
   position: absolute;
   top: 0;
@@ -158,6 +179,7 @@ header .nav li a:hover {
   padding: 100px 50px;
   background: #303F3A;
 }
+
 .facility .sect {
   display: flex;
   justify-content: center;
@@ -165,6 +187,7 @@ header .nav li a:hover {
   flex-direction: row;
   margin-top: 40px;
 }
+
 .facility .sect .box {
   width: 263px;
   margin: 15px;
@@ -172,11 +195,13 @@ header .nav li a:hover {
   background: #363636;
   border-radius: 10px;
 }
+
 .facility .sect .box .img {
   position: relative;
   width: 100%;
   height: 200px;
 }
+
 .facility .sect .box .img img {
   position: absolute;
   top: 0;
@@ -186,6 +211,7 @@ header .nav li a:hover {
   object-fit: cover;
   border-radius: 10px;
 }
+
 .facility .sect .box .text {
   padding: 20px 20px;
   text-align: center;
@@ -200,6 +226,7 @@ header .nav li a:hover {
   padding: 100px 50px;
   background: dimgrey;
 }
+
 .course .sect {
   display: flex;
   justify-content: center;
@@ -207,6 +234,7 @@ header .nav li a:hover {
   flex-direction: row;
   margin-top: 40px;
 }
+
 .course .sect .box {
   width: 263px;
   margin: 15px;
@@ -215,21 +243,26 @@ header .nav li a:hover {
   border-radius: 10px;
   box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2);
 }
+
 .course .sect .box .text {
   padding: 20px 10px;
   text-align: center;
 }
+
 .course .sect .box ul {
   list-style: none;
 }
+
 .course .sect .box .list {
   padding: 20px 10px;
   font-size: 1em;
   font-weight: 500;
 }
+
 .course .sect .box li {
   margin-top: 5px;
 }
+
 .course .sect .box li::before {
   content: "•";
   /* Insert content that looks like bullets */
@@ -246,15 +279,18 @@ header .nav li a:hover {
   padding: 100px 50px;
   background: #555A42;
 }
+
 .contact .context {
   color: whitesmoke;
   font-weight: 500;
   letter-spacing: 1px;
   margin-top: 40px;
 }
+
 .contact .context p {
   margin-top: 10px;
 }
+
 .context .img {
   display: flex;
   justify-content: left;
@@ -262,6 +298,7 @@ header .nav li a:hover {
   flex-direction: row;
   margin-top: 10px;
 }
+
 .img img {
   position: relative;
   justify-content: left;
@@ -281,6 +318,7 @@ header .nav li a:hover {
   align-items: center;
   background: white;
 }
+
 .copyrightText p {
   font-size: 1em;
   font-weight: 400;
@@ -303,6 +341,7 @@ header .nav li a:hover {
     margin: 5px;
     color: whitesmoke;
   }
+
   .content p {
     font-size: 9px;
     font-weight: 300;
@@ -310,6 +349,7 @@ header .nav li a:hover {
     letter-spacing: 0.5px;
     margin-top: 20px;
   }
+
   button {
     border-style: none;
     font-size: 8px;
@@ -321,18 +361,22 @@ header .nav li a:hover {
     margin-top: 20px;
 
   }
+
   .btn a {
     text-decoration: none;
     color: black;
   }
+
   .banner .content {
     width: 100%;
     text-align: center;
   }
+
   .banner {
     width: 100%;
     height: 100%;
   }
+
   header {
     position: fixed;
     top: 0;
@@ -345,31 +389,37 @@ header .nav li a:hover {
     align-items: center;
     background: rgba(0, 0, 0, .7);
   }
+
   header a {
     text-decoration: none;
     color: whitesmoke;
     font-weight: 600;
   }
+
   header .logo {
     font-size: 15px;
   }
+
   span {
     color: lightcoral;
     font-size: 15px;
   }
+
   header .nav li {
     margin-left: 10px;
   }
+
   header .nav li a {
     font-weight: 500;
     font-size: 10px;
   }
- header .nav li a:hover {
-  background: none;
-  padding: 0px;
-  border-radius: 0px;
-  color: royalblue;
-} 
+
+  header .nav li a:hover {
+    background: none;
+    padding: 0px;
+    border-radius: 0px;
+    color: royalblue;
+  }
 
   /* end of home section */
 
