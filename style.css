@@ -303,7 +303,6 @@ header .nav li a:hover {
     margin: 5px;
     color: whitesmoke;
   }
-
   .content p {
     font-size: 9px;
     font-weight: 300;
@@ -311,7 +310,6 @@ header .nav li a:hover {
     letter-spacing: 0.5px;
     margin-top: 20px;
   }
-
   button {
     border-style: none;
     font-size: 8px;
@@ -323,22 +321,18 @@ header .nav li a:hover {
     margin-top: 20px;
 
   }
-
   .btn a {
     text-decoration: none;
     color: black;
   }
-
   .banner .content {
     width: 100%;
     text-align: center;
   }
-
   .banner {
     width: 100%;
     height: 100%;
   }
-
   header {
     position: fixed;
     top: 0;
@@ -351,27 +345,21 @@ header .nav li a:hover {
     align-items: center;
     background: rgba(0, 0, 0, .7);
   }
-
   header a {
     text-decoration: none;
     color: whitesmoke;
     font-weight: 600;
   }
-
   header .logo {
     font-size: 15px;
   }
-
-
   span {
     color: lightcoral;
     font-size: 15px;
   }
-
   header .nav li {
     margin-left: 10px;
   }
-
   header .nav li a {
     font-weight: 500;
     font-size: 10px;
